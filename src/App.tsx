@@ -67,18 +67,7 @@ export default function App() {
       if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed)) {
-          // If the user's saved data doesn't have an empty world yet, seed sample empty world
-          let merged = [...parsed];
-          const hasEmpty = parsed.some((w: World) => w.isEmpty);
-          const sampleEmpty = INITIAL_WORLDS.find((w) => w.id === 'w-7');
-          if (!hasEmpty && sampleEmpty && !parsed.some((w: World) => w.id === sampleEmpty.id)) {
-            merged.push(sampleEmpty);
-          }
-          const sampleW8 = INITIAL_WORLDS.find((w) => w.id === 'w-8');
-          if (sampleW8 && !parsed.some((w: World) => w.id === sampleW8.id)) {
-            merged.push(sampleW8);
-          }
-          return merged;
+          return parsed;
         }
       }
     } catch {
