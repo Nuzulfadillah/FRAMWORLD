@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #070b14;
+    color: #e2e8f0;
+  }
+}
+
+.font-pixel {
+  font-family: 'Press Start 2P', monospace;
+}
+
+.font-game {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Custom scrollbars for clean gaming dashboard */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b1120;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Subtle pixel border effect */
+.pixel-box {
+  box-shadow: 
+    0 -2px 0 0 rgba(255, 255, 255, 0.05),
+    0 2px 0 0 rgba(0, 0, 0, 0.4),
+    -2px 0 0 0 rgba(255, 255, 255, 0.05),
+    2px 0 0 0 rgba(0, 0, 0, 0.4);
+}
+
+.pixel-btn-gold {
+  box-shadow: 0 4px 0 0 #b45309;
+}
+.pixel-btn-gold:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 0 #b45309;
+}
+
+.pixel-btn-green {
+  box-shadow: 0 4px 0 0 #047857;
+}
+.pixel-btn-green:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 0 #047857;
+}
+
+@keyframes progress-shimmer {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 32px 0;
+  }
+}
