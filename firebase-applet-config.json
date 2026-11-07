@@ -1,11 +1,8 @@
 {
-  "projectId": "amplified-ivy-9fs6l",
-  "appId": "1:356045432488:web:1b358cec7d4cc102b1049d",
-  "apiKey": "AIzaSyAXu_yafc1Hs-dx95EKSzJigvp_Paagn4g",
-  "authDomain": "amplified-ivy-9fs6l.firebaseapp.com",
-  "storageBucket": "amplified-ivy-9fs6l.firebasestorage.app",
-  "messagingSenderId": "356045432488",
-  "measurementId": "",
-  "oAuthClientId": "356045432488-l3o7opn77334g2k6s06kr65l3hbcc026.apps.googleusercontent.com",
-  "recaptchaSiteKey": ""
+  "apiKey": "AIzaSyBCWRm3RxdPr6yt_c3sSEGbCG3b_xOaEzM",
+  "authDomain": "growtopia-farm.firebaseapp.com",
+  "projectId": "growtopia-farm",
+  "storageBucket": "growtopia-farm.firebasestorage.app",
+  "messagingSenderId": "880336601142",
+  "appId": "1:880336601142:web:cfc559f75203bb27be1897"
 }
