@@ -306,12 +306,12 @@ export default function App() {
 
     fetchFromServer();
 
-    // Poll every 3500ms
+    // Poll tiap 20 detik
     const pollInterval = setInterval(() => {
       if (document.visibilityState === 'visible') {
         fetchFromServer();
       }
-    }, 3500);
+    }, 20000);
 
     const onVisibilityOrFocus = () => {
       if (document.visibilityState === 'visible') {
